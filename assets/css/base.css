@@ -1,0 +1,25 @@
+html {
+    --txt-color: #111517;
+    --header-bg-color: #fff;
+    --bg-color: #F2F2F2;   
+}
+
+
+html[data-theme = "dark"] {
+    --txt-color: #fff;
+    --header-bg-color: #2B3844;  
+    --bg-color: #202C36;   
+}
+
+*, 
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--bg-color);
+}
